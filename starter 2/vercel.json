@@ -1,6 +1,7 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "build",
+  "root": ".",
   "env": {
     "CI": "true"
   }
