@@ -1,11 +1,5 @@
 {
-  "monorepo": true,
-  "projects": [
-    {
-      "name": "testimonial-slider",
-      "rootDirectory": "starter 2",
-      "buildCommand": "npm run build",
-      "outputDirectory": "build"
-    }
-  ]
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "rootDirectory": "starter 2"
 }
