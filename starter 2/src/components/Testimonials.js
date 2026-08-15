@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Card from './Card';
 
 const Testimonials = ({ reviews }) => {
   const [activeIndex, setActiveIndex] = useState(0);
-
-  const len = (reviews && reviews.length) || 0;
 
  function rightslider()
  {
